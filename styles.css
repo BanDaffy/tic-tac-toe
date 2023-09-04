@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 800px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.cont {
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+.box {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 100px;
+}
+
+.sidebar {
+    width: 300px;
+    height: 800px;
+}
